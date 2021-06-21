@@ -25,6 +25,10 @@ declare global {
       ...params: any[]
     ): boolean;
     asformat(params?: object, option?: TemplateOption): string;
+    asconvert(
+      select: 'date' | 'translate',
+      params?: string | TOptions<object>
+    ): string | object | Moment;
     astrim(
       select: 'center' | 'start' | 'end' = 'center',
       chars = ' '
