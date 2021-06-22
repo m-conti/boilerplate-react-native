@@ -21,7 +21,8 @@
     "react-native-paper": "^4.9.1",
     "react-native-web": "^0.16.5",
     "react-three-fiber": "^6.0.13",
-    "validator": "^13.6.0"
+    "validator": "^13.6.0",
+    "expo-app-auth": "~10.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
